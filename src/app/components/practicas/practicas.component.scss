@@ -2,14 +2,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 10%;
     h2 {
     font-size: 3em;
     font-family: 'Poppins', sans-serif !important;
     }
 }
 .contenedor{
-    width: 90vw;
+    width: 100%;
     height: 60vh;
     position: relative;
     display: flex;
@@ -18,8 +18,7 @@
 }
 
 .cards{
-    width: 90%;
-    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +31,7 @@
 
 @media screen and (max-width: 650px) {
     .cards{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }

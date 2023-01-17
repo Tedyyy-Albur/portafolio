@@ -28,6 +28,17 @@ footer{
     flex-direction: row;
     gap: 5%;
   }
+@media screen and (max-width: 650px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    margin-top: 2%;
+    width: 130px;
+  }
+  
+}
 
   button {
     font-family: inherit;
