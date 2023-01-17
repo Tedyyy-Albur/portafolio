@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { CursosComponent } from './components/cursos/cursos.component';
 import {MatCardModule} from '@angular/material/card';
+import { PracticasComponent } from './components/practicas/practicas.component';
 
 
 
@@ -21,6 +22,7 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     CardComponent,
     CursosComponent,
+    PracticasComponent,
   ],
   imports: [
     BrowserModule,
