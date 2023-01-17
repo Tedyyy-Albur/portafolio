@@ -1,0 +1,17 @@
+mat-toolbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: #ffffff00;
+  color: white;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.ruta{
+  color: white;
+  text-decoration: none;
+}

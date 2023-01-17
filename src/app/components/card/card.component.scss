@@ -1,0 +1,97 @@
+h2 {
+  margin: 0% 0% !important;
+}
+
+.img-div {
+  background-image: url('./cvs.png');
+}
+
+.div-contenedor {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.220);
+  display: flex;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.card:hover {
+  width: 800px;
+}
+
+.card .imgBx {
+  position: relative;
+  min-width: 400px;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card img {
+  max-width: 250px;
+  transition: 0.5s ease-in-out;
+}
+
+
+.details {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: black;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+
+  .informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .div-contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card:hover {
+    height: 800px;
+    width: 400px;
+  }
+
+  .card .imgBx {
+    position: relative;
+    min-width: 100%;
+    height: 400px;
+  }
+
+  .details {
+    position: absolute;
+    height: 1200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px !important;
+    transition: 0.5s ease-in-out;
+    justify-content: center;
+  }
+
+}
