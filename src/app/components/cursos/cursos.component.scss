@@ -1,0 +1,28 @@
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    h2 {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif !important;
+    }
+}
+.contenedor{
+    width: 90%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center !important;
+    gap: 5%;
+}
+
+.example-card {
+    max-width: 100%;
+    box-shadow: 0 45px 50px rgb(0 0 0 / 52%);
+  }
+  
+  .example-header-image {
+    background-image: url('https://avatars.githubusercontent.com/u/78330013?v=4');
+    background-size: cover;
+  }

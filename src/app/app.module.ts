@@ -9,6 +9,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { CardComponent } from './components/card/card.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { CursosComponent } from './components/cursos/cursos.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 
@@ -16,7 +19,8 @@ import { MatButtonModule } from '@angular/material/button';
   declarations: [
     AppComponent,
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    CursosComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,8 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
 
   ],
   providers: [],
