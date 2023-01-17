@@ -1,6 +1,43 @@
-.contenedor{
+.titulo{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    margin-top: 5%;
+    h2 {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif !important;
+    }
+}
+.contenedor{
+    width: 90vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+    .example-card {
+        box-shadow: 0 45px 50px rgb(0 0 0 / 52%);
+      }
+}
+
+@media screen and (max-width: 650px) {
+    .cards{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .example-card{
+        margin-top: 5%;
+    }
+    
 }
